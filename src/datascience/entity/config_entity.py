@@ -1,6 +1,6 @@
 from dataclasses import dataclass
 from pathlib import Path
-
+# for data ingestion pipeline
 @dataclass
 class DataIngestionConfig:
     root_dir: Path

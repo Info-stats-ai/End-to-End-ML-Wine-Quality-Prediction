@@ -27,7 +27,7 @@ def read_yaml(path_to_yaml: Path) -> ConfigBox:
     try:
         with open(path_to_yaml) as yaml_file:
             content = yaml.safe_load(yaml_file)
-            # reading the yaml file
+            # this is how the reading of  the yaml file happens using safe.load
             logger.info(f"yaml file: {path_to_yaml} loaded successfully")
             return ConfigBox(content)
     except BoxValueError:
@@ -62,8 +62,13 @@ def save_json(path: Path, data: dict):
         json.dump(data, f, indent=4)
 
     logger.info(f"json file saved at: {path}")
+    #as we are using the json.dump it will automatically convert the data into json format
+    #and it will save the data in the json file
+    #and it will also log the message that the json file is saved at the path
+
 
 @ensure_annotations
+#this is how the loading of the json file happens using json.load
 def load_json(path: Path) -> ConfigBox:
     """load json files data
 
@@ -80,6 +85,8 @@ def load_json(path: Path) -> ConfigBox:
     return ConfigBox(content)
 
 @ensure_annotations
+# save bin are the binary files that are saved in the file
+# we need them because we are using the joblib to save the binary files
 def save_bin(data: Any, path: Path):
     """save binary file
 

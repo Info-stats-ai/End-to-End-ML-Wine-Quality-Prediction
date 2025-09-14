@@ -1,0 +1,14 @@
+artifact_uri: file:///Users/omkarthakur/Desktop/Ds_project/mlruns/0/dfdc8d6c85b74adeb5f9940efd5adf8e/artifacts
+end_time: 1757800508693
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: dfdc8d6c85b74adeb5f9940efd5adf8e
+run_name: glamorous-ray-31
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1757800507097
+status: 3
+tags: []
+user_id: omkarthakur

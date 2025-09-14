@@ -1,0 +1,14 @@
+artifact_uri: file:///Users/omkarthakur/Desktop/Ds_project/mlruns/0/945d8f729bc64c058766ba5ce4103941/artifacts
+end_time: 1757734563405
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 945d8f729bc64c058766ba5ce4103941
+run_name: adorable-shrew-732
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1757734561730
+status: 3
+tags: []
+user_id: omkarthakur

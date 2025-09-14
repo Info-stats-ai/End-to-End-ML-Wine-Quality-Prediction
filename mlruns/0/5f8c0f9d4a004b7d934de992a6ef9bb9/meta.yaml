@@ -1,0 +1,14 @@
+artifact_uri: file:///Users/omkarthakur/Desktop/Ds_project/mlruns/0/5f8c0f9d4a004b7d934de992a6ef9bb9/artifacts
+end_time: 1757803496614
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 5f8c0f9d4a004b7d934de992a6ef9bb9
+run_name: thundering-gull-987
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1757803495112
+status: 3
+tags: []
+user_id: omkarthakur

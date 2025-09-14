@@ -1,0 +1,10 @@
+artifact_location: file:///Users/omkarthakur/Desktop/Ds_project/mlruns/0/models/m-6b6bb1c2d2a445f6a5fabb4b6885395a/artifacts
+creation_timestamp: 1757825209285
+experiment_id: '0'
+last_updated_timestamp: 1757825210785
+model_id: m-6b6bb1c2d2a445f6a5fabb4b6885395a
+model_type: null
+name: model
+source_run_id: 3eba49485142431c922e36ed266d943e
+status: 2
+status_message: null

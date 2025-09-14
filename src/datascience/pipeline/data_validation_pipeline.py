@@ -13,6 +13,13 @@ class DataValidationTrainingPipeline:
         data_validation_config = config.get_data_validation_config()
         data_validation = DataValiadtion(config=data_validation_config)
         data_validation.validate_all_columns()
+#this is the pipeline for data validation
+# what it does is it validates all the columns in the data with the schema.yml file
+# if the columns are not in the schema.yml file, it will raise an error
+# if the columns are in the schema.yml file, it will return True
+# it will also return the status of the validation
+# it will also return the status of the validation in the status.txt file
+# it will also return the status of the validation in the status.txt file
 
 if __name__ == '__main__':
     try:
